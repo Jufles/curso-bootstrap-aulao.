@@ -16,7 +16,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Juflas</a>
+                <a class="navbar-brand" href="../index.html">Juflas</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,46 +24,43 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link " href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="paginas/portifolio.html">Portifolio</a>
+                            <a class="nav-link" href="portifolio.html">Portifolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="paginas/contato.html">Contato</a>
+                            <a class="nav-link" href="contato.html">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="paginas/sobre.html">Sobre</a>
+                            <a class="nav-link " href="sobre.html">Sobre</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Abrir modal
+            </button>
 
-
-
-        <div class="row espacamento">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagens/foto.png" class="card-img-top" alt="foto bootstrap">
-                    <div class="card-body">
-                        <p class="card-text">Estou aprendendo bootstrap ! Esta é a pagina pricipal</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagens/foto.png" class="card-img-top" alt="foto bootstrap">
-                    <div class="card-body">
-                        <p class="card-text">Estou aprendendo bootstrap ! Esta é a pagina pricipal</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagens/foto.png" class="card-img-top" alt="foto bootstrap">
-                    <div class="card-body">
-                        <p class="card-text">Estou aprendendo bootstrap ! Esta é a pagina pricipal</p>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Aviso</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                         Deseja salvar?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                            <button type="button" class="btn btn-primary">Sim!</button>
+                        </div>
                     </div>
                 </div>
             </div>
